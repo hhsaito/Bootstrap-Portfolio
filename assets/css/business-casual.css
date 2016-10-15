@@ -112,6 +112,35 @@ footer p {
     padding: 50px 0;
 }
 
+.size-icon {
+    width: 62px;
+    height: 62px;
+}
+.green-back {
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+.green-back h2 small, .green-back h2 small strong {
+    color: #ffffff;
+}
+.green-back .tagline-divider {
+    border-color: #ffffff;
+}
+footer {
+    background-color: #666666;
+    border-top: 8px solid #4AAAA5;
+    color: #fff;
+}
+footer p {
+    color: #fff;
+}
+h2.intro-text { color: #4aaaa5; }
+.clear-fix {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 @media screen and (min-width:768px) {
     .brand {
         display: inherit;
@@ -180,6 +209,12 @@ footer p {
         margin: 0 auto;
         table-layout: fixed;
         font-size: 1.25em;
+    }
+}
+@media only screen and (max-width : 768px) {
+    .size-icon {
+        float: left;
+        margin-right: 25px;
     }
 }
 
